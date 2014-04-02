@@ -176,7 +176,7 @@ function next_page_options() { ?>
     </div>
     
 	<p class="submit">
-	<input type="submit" name="submit" class="button-primary" value="<?php _e('Update Options', 'next-page'); ?>" />
+	<input type="submit" name="submit" class="button-primary" value="<?php _e('Save Options', 'next-page'); ?>" />
 	</p>
 	</form>
 	</div>
