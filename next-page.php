@@ -210,7 +210,8 @@ function get_next_link() {
 	$exclude = $options['exclude'];
 	$pagelist = flatten_page_list($exclude);
 	$current = array_search($post->ID, $pagelist);
-	$nextID = $pagelist[$current+1];
+	if ($current < count($pagelist) - 1)
+		$nextID = $pagelist[$current+1];
 	
 	if (!isset($nextID)) 
 		if ($options['loop'])
