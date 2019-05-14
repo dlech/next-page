@@ -189,7 +189,7 @@ function flatten_page_list($exclude = '') {
    $pagelist = get_pages($args);
    $mypages = array();
    if (!empty($exclude)) {
-       $excludes = split(',', $exclude);
+       $excludes = explode(',', $exclude);
        foreach ($pagelist as $thispage) {
            if (!in_array($thispage->ID, $excludes)) {
                $mypages[] += $thispage->ID;

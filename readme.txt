@@ -5,8 +5,8 @@ Donate link: http://stephanieleary.com/code/wordpress/next-page/
 Text Domain: next_page
 Domain Path: /languages
 Requires at least: 2.5
-Tested up to: 3.1
-Stable tag: 1.5.2
+Tested up to: 5.2
+Stable tag: 1.5.3
 
 
 This plugin provides shortcodes and template tags for next/previous navigation in pages. 
@@ -36,6 +36,8 @@ Hosting Geeks</a>)
 If you would like to send me a translation, please write to me through <a href="http://sillybean.net/about/contact/">my contact page</a>. Let me know which plugin you've translated and how you would like to be credited. I will write you back so you can attach the files in your reply.
 
 == Changelog ==
+= 1.5.3 =
+* Fixed PHP7 error (uses explode() instead of split() now)
 
 = 1.5.2 =
 * Romanian translation Web Geek Science (<a href="http://webhostinggeeks.com/">Web
